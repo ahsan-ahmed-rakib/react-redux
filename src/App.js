@@ -1,5 +1,6 @@
 import "./App.css";
 import CounterView from "./features/counter/CounterView";
+import PostsView from "./features/posts/PostsView";
 // import Counter from "./components/Counter";
 // import Todos from "./components/Todos";
 
@@ -10,6 +11,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Todos /> */}
       <CounterView />
+      <hr />
+      <PostsView />
     </div>
   );
 }
