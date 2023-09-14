@@ -8,7 +8,7 @@ const PostsView = () => {
 
   useEffect(() => {
     dispatch(fetchPosts());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div>
